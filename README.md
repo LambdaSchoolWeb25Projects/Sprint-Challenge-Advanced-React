@@ -81,9 +81,6 @@ Context changes
 Subscription changes: 
 What happens when an event emitter the component subscribes to changes? (Like firebase, a redux store, a router, a media query, or DOM-based subscriptions like online status)
 
-
-
-
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
