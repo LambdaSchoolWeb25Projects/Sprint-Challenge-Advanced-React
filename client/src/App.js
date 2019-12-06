@@ -31,6 +31,7 @@ class App extends React.Component {
     console.log('rendering App component');
     return (
       <div className="App">
+        <h1>Women's World Cup Players</h1> 
         <Card player={this.state.players} name={this.state.name} country={this.state.country} />
     </div>
     );
