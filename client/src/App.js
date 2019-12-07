@@ -6,6 +6,7 @@
 
 import React from 'react';
 import axios from 'axios';
+import Sheroes from './components/Sheroes';
 import Card from './components/Card';
 import './App.css';
 
@@ -32,6 +33,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Women's World Cup Players</h1> 
+        <Sheroes />
         <Card player={this.state.players} name={this.state.name} country={this.state.country} />
     </div>
     );
